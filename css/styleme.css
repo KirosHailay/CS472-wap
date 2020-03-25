@@ -23,7 +23,33 @@ body h1{
 #footer {
     float: right;
 }
+/* All below css are for Extra credit */
 #movies a{
     color: red;
     text-decoration: none;
+}
+
+#movies a:hover{
+    text-decoration: underline;
+}
+
+.firstcharacter {
+  color: #903;
+  float: left;
+
+    border-radius: 50%;  font-family: Georgia;
+  font-size: 50px;
+  line-height: 20px;
+  padding-top: 4px;
+  padding-left: 3px;
+}
+dl {
+    margin-top: 4px;
+    font-size: 10pt;
+   
+}
+ dt{
+     padding: 4px;
+     color: #cc9900;
+
 }
