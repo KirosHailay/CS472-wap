@@ -8,30 +8,26 @@ body {
     background-attachment: fixed;
 }
 
-body h1 {
- color: #A4A400;
-    background-color: #F0F0F0 ;
-    text-decoration: underline;
-    font-size:18pt ;
-    font-family: "Lucida Sans Unicode";
-}
-#header {
+h1 {
     color: #A4A400;
-    background-color: #F0F0F0 ;
-    font-family: "Lucida Sans Unicode";
-    text-align: center;
-    font-size: 22pt;
     text-decoration: underline;
+    font-size:22pt ;
+    font-family: "Lucida Sans Unicode";
+    letter-spacing: 0.25cm;
+}
+/* Extra credit */
+h1 span{
+    background-color: #F0F0F0 ;
+}
+/* for the top header */
+#header {
+    text-align: center;
 }
 
 #firstdiv p {
     list-style: none;
     text-align: left;   
     line-height: 5px;
-}
-
-#seconddiv li {
-    list-style: none;
 }
 
 #cake {
@@ -49,4 +45,9 @@ blockquote p {
 }
 #footer {
     float: right;
+}
+
+/* Extra Credit */
+ul li {
+    list-style-image: url('../../images/recipeImages/pie_icon.gif');
 }
