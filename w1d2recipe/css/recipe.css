@@ -3,6 +3,9 @@ body {
     text-align: left;
     font-size: 11pt;
     font-family: Georgia;
+    background-image: url('../../images/recipeImages/silverware.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 body h1 {
