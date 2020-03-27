@@ -13,6 +13,7 @@ body h1{
     width: 500px;
     height: 500px;
     border-radius: 50%;
+    vertical-align: bottom;
 }
 /* trying to make a first letter big */
 .flbig{
@@ -33,16 +34,6 @@ body h1{
     text-decoration: underline;
 }
 
-.firstcharacter {
-  color: #903;
-  float: left;
-
-    border-radius: 50%;  font-family: Georgia;
-  font-size: 50px;
-  line-height: 20px;
-  padding-top: 4px;
-  padding-left: 3px;
-}
 dl {
     margin-top: 4px;
     font-size: 10pt;
@@ -52,4 +43,14 @@ dl {
      padding: 4px;
      color: #cc9900;
 
+}
+#headerp::first-letter {
+     color: #903;
+  float: left;
+
+    border-radius: 50%;  font-family: Georgia;
+  font-size: 50px;
+  line-height: 20px;
+  padding-top: 4px;
+  padding-left: 3px;
 }

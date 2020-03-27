@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-image: url('../images/movimages/background.png');
+    padding: 0;
+}
+.container {
+    margin: auto;
+    width: 800px;
+    border: solid 5px gray;
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 550px 250px;
+  
+}
+#banner {
+    text-align: center;
+    background-image: url('../images/movimages/bannerbg.png');
+}
+h1 {
+    text-align: center;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+#rotten {
+    background-image: url(../images/movimages/rbg.png);
+}
+
+p > img {
+    float: left;
+}
+.review {
+    overflow: hidden;
+}
+.comment {
+    border: solid 2px gray;
+    padding-left: 4px;
+}
+
+.review p {
+    text-indent: 4px;
+}
+span {
+    color: red;
+    font-size: 48pt;
+    font-style: bold;
+    vertical-align: bottom;
+}
