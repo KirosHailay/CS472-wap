@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-image: url('../images/movimages/background.png');
     padding: 0;
+    
 }
 .container {
     margin: auto;
@@ -28,6 +29,7 @@ h1 {
 }
 #rotten {
     background-image: url(../images/movimages/rbg.png);
+    background-repeat: repeat-x;
 }
 
 p > img {
@@ -39,14 +41,46 @@ p > img {
 .comment {
     border: solid 2px gray;
     padding-left: 4px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.404);
+    min-height: 40px;
 }
 
 .review p {
     text-indent: 4px;
 }
+
+/* for the 33%  */
 span {
     color: red;
     font-size: 48pt;
     font-style: bold;
     vertical-align: bottom;
+}
+
+.definition {
+    background-color: #a2b964;
+}
+
+#right {
+    margin: 0;
+     background-color: #a2b964;
+}
+.lastParagraph{
+    background-color: #a2b964;
+}
+p {
+    font-size: 0.9vw;
+}
+.addcolor{
+    background-color: #a2b964;
+}
+.comment p {
+    margin: 2px;
+    padding: 0px;
+}
+.validator {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
