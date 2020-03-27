@@ -2,12 +2,13 @@ body {
     margin: 0;
     background-image: url('../images/movimages/background.png');
     padding: 0;
-    
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, "sans-serif";
 }
 .container {
     margin: auto;
     width: 800px;
-    border: solid 5px gray;
+    border: solid 4px gray;
     border-radius: 20px;
     overflow: hidden;
     display: grid;
@@ -17,23 +18,29 @@ body {
 #banner {
     text-align: center;
     background-image: url('../images/movimages/bannerbg.png');
+    height: 50px;
 }
 h1 {
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, serif;
+    text-shadow: 3px 3px #999999;
     text-align: center;
 }
 .reviews {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 #rotten {
     background-image: url(../images/movimages/rbg.png);
     background-repeat: repeat-x;
+    height: 83px;
 }
 
 p > img {
     float: left;
+    padding-right: 5px;
 }
 .review {
     overflow: hidden;
@@ -42,24 +49,30 @@ p > img {
     border: solid 2px gray;
     padding-left: 4px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.404);
-    min-height: 40px;
+    background-color: #E8DC9B;
+    min-height: 24px;
+    padding: 8px;
 }
 
-.review p {
+.comment p {
     text-indent: 4px;
+    font-size: 8pt;
+    font-weight: bold;
 }
 
 /* for the 33%  */
 span {
     color: red;
     font-size: 48pt;
-    font-style: bold;
+    font-weight: bold;
     vertical-align: bottom;
 }
 
 .definition {
     background-color: #a2b964;
+    padding: 10px;
+    font-size: 8pt;
+    font-family: Arial, "sans-serif";
 }
 
 #right {
@@ -68,9 +81,8 @@ span {
 }
 .lastParagraph{
     background-color: #a2b964;
-}
-p {
-    font-size: 0.9vw;
+    text-align: center;
+    height: 28;
 }
 .addcolor{
     background-color: #a2b964;
@@ -83,4 +95,12 @@ p {
     position: fixed;
     bottom: 0;
     right: 0;
+    opacity: 50%;
+}
+.reviewer img {
+    padding-right: 5px;
+}
+dt{
+    margin-top: 10px;
+    font-weight: bold;
 }
