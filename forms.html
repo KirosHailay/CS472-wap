@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./css/forms.css">
+    </head>
+   <body>
+       <div id="header">
+         
+       </div>
+
+       <div class="container">
+           <form>
+               <label>Email address</label><br>
+               <input type="email" name="email" placeholder="Enter email" pattern="^[a-zA-Z_\-]+@(([a-zA-Z_\-])+\.)+[a-zA-Z]{2,4}$" ><br>
+               <span>We'll never share your email with anyone else.</span><br>
+                
+               <div class="pass">
+                <label>Password</label><br>
+               <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+               title="Must contain at least one number and one uppercase and lowercase letter, and at least 10 or more characters" > <br>
+               </div>
+               
+                <input type="checkbox" value="" > Check me out <br>
+               <input type="submit">
+               
+           </form>
+       </div>
+     <div id="footer">
+
+       </div>
+   </body>
+     
+</html>
