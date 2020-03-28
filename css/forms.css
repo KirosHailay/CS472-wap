@@ -5,7 +5,7 @@ body {
 
 #header{
     background-color: black;
-    height: 92px;
+    height: 34px;;
 
 }
 .container {
@@ -13,7 +13,7 @@ body {
     width: 90%;
     margin: auto;
     overflow: hidden;
-    height: 338px;
+    height: 472px;
     
 }
 form {
@@ -28,6 +28,13 @@ input[type="email"] {
 
 }
 
+input[type="url"] {
+    width: 100%;
+    height: 41px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
 input[type="password"] {
     width: 100%;
     height: 41px;
@@ -35,12 +42,11 @@ input[type="password"] {
     margin-bottom: 5px;
 }
 
-
 #footer{
     position: fixed;
     width: 100%;
     background-color: black;
-    height: 92px;
+    height: 34px;;
     bottom: 0;
     left: 0;
 
