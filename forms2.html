@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./css/forms.css">
+        <link rel="stylesheet" href="./css/forms2.css">
+        
     </head>
    <body>
        <div id="header">
-         
+         <h1>MUM Golden Dome Market:::SRM System</h1>
+         <ul>
+         <li><a href="">Product</a></li>
+        <li><a href="">Suppliers</a></li>
+        </ul>
+        <div class="hello">
+            <span> Hello! </span>
+            <button>Sign Out</button>
+        </div>
+        
+       </div>
+       <div class="container">
+           <h2> New Product Form</h2>
+           <form>
+            <div class="left">
+                    <label>Product Number</label><br>
+               <input type="number" name="productnumber"><br>
+                
+               <div class="pass">
+                <label>Name</label><br>
+               <input type="text" name="name">
+               </div>
+                <div class="pass">
+                <label>Unit Price</label><br>
+               <input type="text" name="unitprice" placeholder="0.0" pattern="\d{1,9}" title="Please enter number only"> <br>
+               </div>
+           </div>
+           <div class="right">
+            <label>Quantity in stock</label><br>
+               <input type="number" name="quantity" placeholder="0">
+                
+               <div class="pass">
+                <label>Supplier:</label><br>
+              <select name="supplier"> 
+                   <option value="" disabled selected hidden>Select a Supplier</option>
+                    <option>Amazon</option>
+                    <option>Ebay</option>
+              </select>
+
+               </div>
+                <div class="pass">
+                <label>Date supplied</label><br>
+                <input type="date" name="date" pattern= "(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d"
+                title="Please enter MM/dd/year format">
+                <span>Enter a valid Date</span>
+               </div>
+               <div class="btn-group">
+                   <button class="reset" name="reset">Reset</button>
+                   <button class="cancel" name="cancel">Cancel</button>
+                   <input type="submit" name="Add Product" value="Add Product">
+               </div>
+           </div>
+           </form>
+           
        </div>
 </body>
 </html>
