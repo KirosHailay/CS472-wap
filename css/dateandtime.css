@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    background: black;
+}
+.container {
+    border: solid 2px black;
+    height: 400px;
+    margin: 100px 100px 100px 100px;
+    box-sizing: border-box;
+    background: black;
+    text-align: center;
+    padding-top: 116px;
+
+}
+span {
+    color: white;
+    font-size: 80px;
+    
+}
