@@ -22,24 +22,24 @@
            <form>
             <div class="left">
                     <label>Product Number</label><br>
-               <input type="number" name="productnumber"><br>
+               <input type="number" name="productnumber" id = "pNumber"><br>
                 
                <div class="pass">
                 <label>Name</label><br>
-               <input type="text" name="name">
+               <input type="text" name="name" id = "name">
                </div>
                 <div class="pass">
                 <label>Unit Price</label><br>
-               <input type="text" name="unitprice" placeholder="0.0" pattern="\d{1,9}" title="Please enter number only"> <br>
+               <input type="text" name="unitprice" id = "uPrice" placeholder="0.0" pattern="\d{1,9}" title="Please enter number only"> <br>
                </div>
            </div>
            <div class="right">
             <label>Quantity in stock</label><br>
-               <input type="number" name="quantity" placeholder="0">
+               <input type="number" name="quantity" id = "quantity" placeholder="0">
                 
                <div class="pass">
                 <label>Supplier:</label><br>
-              <select name="supplier"> 
+              <select name="supplier" id = "supplier"> 
                    <option value="" disabled selected hidden>Select a Supplier</option>
                     <option>Amazon</option>
                     <option>Ebay</option>
@@ -48,18 +48,20 @@
                </div>
                 <div class="pass">
                 <label>Date supplied</label><br>
-                <input type="date" name="date" pattern= "(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d"
+                <input type="date" name="date" id = "date" pattern= "(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d"
                 title="Please enter MM/dd/year format">
                 <span>Enter a valid Date</span>
                </div>
                <div class="btn-group">
                    <button class="reset" name="reset">Reset</button>
                    <button class="cancel" name="cancel">Cancel</button>
-                   <input type="submit" name="Add Product" value="Add Product">
+                   <input type="button" name="Add Product" id = "aProduct" value="Add Product">
                </div>
            </div>
            </form>
            
        </div>
+
+       <script src="add.js"></script>
 </body>
 </html>

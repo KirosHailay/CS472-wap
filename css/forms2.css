@@ -125,7 +125,7 @@ input {
 
 }
 
-input[type="submit"] {
+input[type="button"] {
     padding: 12px;
     background: white;
     border: #03A9F4 1px solid;
