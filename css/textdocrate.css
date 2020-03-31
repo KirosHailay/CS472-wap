@@ -1,0 +1,10 @@
+.txt {
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+.txt2 {
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}

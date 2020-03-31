@@ -12,12 +12,10 @@ function docorator() {
 function somestyle() {
      var chkbox = document.getElementById("bng");
     if(chkbox.checked == true) {
-        text.style.fontWeight="bold";
-        text.style.color = "green";
-        text.style.textDecoration ="underline";
+       text.className = "txt";
     }
     else {
-        text.style.fontWeight ="normal";
+        text.className = "txt2"
     }
     
 }
