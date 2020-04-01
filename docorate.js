@@ -6,7 +6,9 @@ window.onload = function () {
 }
 
 function docorator() {
-    text.style.fontSize = "24pt";
+
+    var currentfont = parseInt(window.getComputedStyle(text, null).getPropertyValue('font-size'));
+    text.style.fontSize = currentfont + 24 + "px";
 } 
 
 function somestyle() {
