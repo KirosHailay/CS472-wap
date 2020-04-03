@@ -2,14 +2,16 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./css/forms.css">
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script> 
+            <script src="./login.js"></script>
     </head>
    <body>
 
        <div class="container">
-           <form>
+           <form id="login">
                <!--pattern="^[a-zA-Z_\-]+@(([a-zA-Z_\-])+\.)+[a-zA-Z]{2,4}$" -->
                <label>Email address</label><br>
-               <input type="email" name="email" id = "email" placeholder="Enter email" pattern="^[a-zA-Z_\-]+@(([a-zA-Z_\-])+\.)+[a-zA-Z]{2,4}$"><br>
+               <input type="email" name="email" id = "email" placeholder="Enter email" pattern="^[a-zA-Z0-9._\-]+@(([a-zA-Z_\-])+\.)+[a-zA-Z]{2,4}$" ><br>
                <span>We'll never share your email with anyone else.</span><br>
                 
                <div class="pass">
@@ -22,11 +24,11 @@
                <input type="url" name="website" id = "url" pattern="https?://.+" title="Include http://" placeholder="Website"> <br>
                </div>
                 <input type="checkbox" value="" > Check me out <br>
-               <input type="button" id="login" value="Submit">
+               <input type="submit">
                
            </form>
        </div>
-      <script src="login.js"></script> 
+ 
    </body>
      
 </html>
