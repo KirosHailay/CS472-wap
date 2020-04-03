@@ -135,18 +135,17 @@ input[type="submit"] {
 input[type="button"] {
     padding: 12px;
     background: white;
-    border: #03A9F4 1px solid;
-    color: #03A9F4;
     border-radius: 4px;
 }
-.cancel {
+
+#cancel {
     border: red 1px solid;
     border-radius: 2px;
     color: red;
     border-radius: 4px;
 }
 
-.reset {
+#reset {
      border: blue 1px solid;
     border-radius: 2px;
     color: blue;
