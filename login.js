@@ -1,5 +1,5 @@
 $(function() {
-    $("#login").on('submit', printToConsole)
+    $("#login").on('submit', 'submit', printToConsole);
    
 });
   

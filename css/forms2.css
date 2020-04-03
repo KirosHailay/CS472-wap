@@ -125,6 +125,13 @@ input {
 
 }
 
+input[type="submit"] {
+    padding: 12px;
+    background: white;
+    border: #03A9F4 1px solid;
+    color: #03A9F4;
+    border-radius: 4px;
+}
 input[type="button"] {
     padding: 12px;
     background: white;
@@ -144,4 +151,9 @@ input[type="button"] {
     border-radius: 2px;
     color: blue;
     border-radius: 4px;
+}
+
+#outputdiv {
+    background-color: black;
+    color: white;
 }
