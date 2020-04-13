@@ -1,0 +1,15 @@
+[{
+  "accountnumber": 1234556,
+  "name": "Tesfu Zemedu",
+  "accounttype": "Checking"
+},
+  {
+    "accountnumber": 12345567,
+    "name": "Abel Adam",
+    "accounttype": "Saving"
+  },
+  {
+    "accountnumber": 1234559,
+    "name": "Kindrick Lamar",
+    "accounttype": "Loan"
+  }]
